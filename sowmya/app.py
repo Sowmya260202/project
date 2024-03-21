@@ -5,7 +5,7 @@ app=Flask(__name__)
 
 @app.route('/',methods=['GET'])
 def welcome():
-    return 'i can perform maths operations'
+    return 'welcome to homepage'
 
 @app.route('/add/<a>/<b>',methods=['GET'])
 def addition(a,b):
